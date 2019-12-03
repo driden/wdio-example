@@ -1,5 +1,6 @@
 # Testing con [WebDriverIO](https://webdriver.io/)
-
+## Objetivo
+Aprender a usar wdio, implementando tests (ya definidos) para el sitio [Automation Practice](http://automationpractice.com/index.php)
 ## Configuracion
 * Projecto base creado con [webdriverio cli](https://webdriver.io/docs/clioptions.html)
 * webdriver síncrono
@@ -7,4 +8,4 @@
 * [Jasmine](https://jasmine.github.io/) como testing framework
 * Assertions de [Chai](https://www.chaijs.com/)
 * Spec y Allure como reporting tools
-* Typings para wdio
+* [JSDoc](https://dev.to/paulasantamaria/document-your-javascript-code-with-jsdoc-2fbf) para wdio
