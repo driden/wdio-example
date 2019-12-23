@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/wdio wdio.conf.js"
+    "test": "node_modules/.bin/wdio wdio.conf.js",
+    "gecko": "node_modules/geckodriver/bin/geckodriver"
   },
   "author": "",
   "license": "ISC",
@@ -15,11 +16,13 @@
     "@babel/register": "^7.7.4",
     "@wdio/allure-reporter": "^5.16.10",
     "@wdio/cli": "^5.16.10",
+    "@wdio/firefox-profile-service": "^5.16.11",
     "@wdio/jasmine-framework": "^5.16.10",
     "@wdio/local-runner": "^5.16.10",
     "@wdio/spec-reporter": "^5.16.5",
     "@wdio/sync": "^5.16.10",
     "chromedriver": "^78.0.1",
+    "geckodriver": "^1.19.1",
     "jsdoc": "^3.6.3",
     "wdio-chromedriver-service": "^5.0.2",
     "wdio-video-reporter": "^1.4.4"
