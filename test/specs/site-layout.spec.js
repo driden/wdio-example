@@ -1,10 +1,14 @@
-import { AutomationPractice } from "../../src/page-object/automation-practice";
+import MainPage from "../../src/page-object/main.page";
+import AuthenticationPage from "../../src/page-object/authentication.page";
 
 describe("The site", () => {
+  beforeAll(() => {
+    MainPage.open();
+    MainPage.waitForPageToLoad();
+  });
+
   it("should have a header", () => {
-    const site = new AutomationPractice();
-    const header = site.getHeader();
-    assert.isTrue(header.isVisible());
+    expect(MainPage.header.isDisplayed()).toBeTrue();
   });
 
   it("should have a searchbox", () => {});
