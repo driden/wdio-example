@@ -26,5 +26,8 @@
     "jsdoc": "^3.6.3",
     "wdio-chromedriver-service": "^5.0.2",
     "wdio-video-reporter": "^1.4.4"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.7.4"
   }
 }
