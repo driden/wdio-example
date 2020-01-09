@@ -6,6 +6,5 @@ Aprender a usar wdio, implementando tests (ya definidos) para el sitio [Automati
 * webdriver síncrono
 * [Babel](https://babeljs.io/) para transpilar ECMAScript a js
 * [Jasmine](https://jasmine.github.io/) como testing framework
-* Assertions de [Chai](https://www.chaijs.com/)
 * Spec y Allure como reporting tools
 * [JSDoc](https://dev.to/paulasantamaria/document-your-javascript-code-with-jsdoc-2fbf) para wdio
