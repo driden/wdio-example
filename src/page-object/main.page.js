@@ -1,19 +1,23 @@
 import NavBar from "./nav";
+import { Header } from "./header";
 /**
  * This class models the automation practice page.
  */
 export class MainPage {
   constructor() {
     this.navBar = new NavBar();
-  } 
+    this.header = new Header();
+  }
   /**
    * @function returns a new instance of the Header class
    */
-  get header() { return $('#header'); }
-  get logo() { return $('.logo'); }
+
+  get logo() {
+    return $(".logo");
+  }
 
   open() {
-    browser.url('/');
+    browser.url("/");
   }
 
   waitForPageToLoad() {

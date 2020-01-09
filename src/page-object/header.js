@@ -12,7 +12,7 @@ export class Header {
    * @function isVisible
    * @returns whether the header is being currently displayed or not
    */
-  isVisible() {
-    return browser.$(locator).isDisplayed();
+  isDisplayed() {
+    return browser.$(this.locator).isDisplayed();
   }
 }
